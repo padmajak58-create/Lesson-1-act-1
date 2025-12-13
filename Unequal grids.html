@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Grid Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Internal CSS -->
+  <style type="text/css">
+    h1 {
+      color: green;
+    }
+
+    #d1, #d4 {
+      color: white;
+      background: olive;
+      font-size: 20px;
+    }
+
+    #d2, #d5 {
+      color: white;
+      background: maroon;
+      font-size: 20px;
+    }
+
+    #d3, #d6 {
+      color: white;
+      background: fuchsia;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body class="container-fluid">
+
+  <h1>Unequal Grid</h1>
+
+  <div class="row">
+    <div id="d1" class="col-sm-3">Adding 3 grid</div>
+    <div id="d2" class="col-sm-3">Adding 3 grid</div>
+    <div id="d3" class="col-sm-6">Adding 6 grid</div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div id="d4" class="col-sm-3">Adding 3 grid</div>
+    <div id="d5" class="col-sm-3">Adding 3 grid</div>
+    <div id="d6" class="col-sm-6">Adding 6 grid</div>
+  </div>
+
+</body>
+</html>
