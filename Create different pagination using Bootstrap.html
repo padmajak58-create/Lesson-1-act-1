@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create different pagination using Bootstrap</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+</head>
+
+<body class="bg-light">
+
+  <div class="container mt-5">
+
+    <h2 class="text-center mb-4">
+      Create different pagination using Bootstrap
+    </h2>
+
+    <p class="text-center">
+      This project demonstrates how pagination works using Bootstrap utilities.
+    </p>
+
+    <!-- Content Box -->
+    <div class="card p-4 mb-4">
+      <h5>Sam's Web Page</h5>
+      <p>
+        Sam wants to create another webpage where he can use the effect of
+        changing pages. Pagination helps to navigate between pages easily.
+      </p>
+    </div>
+
+    <!-- Pagination 1 -->
+    <h5>Basic Pagination</h5>
+    <nav>
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Pagination 2 -->
+    <h5 class="mt-4">Centered Pagination</h5>
+    <nav>
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link">3</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Pagination 3 -->
+    <h5 class="mt-4">Small Pagination</h5>
+    <nav>
+      <ul class="pagination pagination-sm">
+        <li class="page-item">
+          <a class="page-link">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link">3</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
